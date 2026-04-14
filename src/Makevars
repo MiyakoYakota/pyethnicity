@@ -1,3 +1,0 @@
-CXX_STD = CXX17
-PKG_CXXFLAGS = -I../inst/include -pthread #-Wno-error=template-id-cdtor
-PKG_LIBS = `"$(R_HOME)/bin/Rscript" -e "RcppThread::LdFlags()"`
